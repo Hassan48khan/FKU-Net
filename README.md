@@ -343,32 +343,6 @@ Both models target cardiac segmentation and share the same research group. Here 
 | Parameters | ~10M | ~32.8M |
 | Primary advantage | Lightweight, frequency-aware, interpretable | High-capacity, strong cross-modal generalization |
 
----
-
-## LaTeX Paper Issues Fixed
-
-The submitted `.tex` source has one typographic error in Section 3.4 (Ablation Study):
-
-```latex
-% ORIGINAL (missing first word — paragraph starts mid-sentence):
-witching from a 3-layer standard KAN ...
-
-% CORRECTED:
-Switching from a 3-layer standard KAN ...
-```
-
-Also, the `\subsection` header for the Fourier-KAN bottleneck is missing a space:
-
-```latex
-% ORIGINAL:
-\subsection{PureFKANBlock:Fourier-KAN Bottleneck}
-
-% CORRECTED:
-\subsection{PureFKANBlock: Fourier-KAN Bottleneck}
-```
-
----
-
 ## Citation
 
 If you use FKU-Net in your research, please cite:
